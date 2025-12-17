@@ -32,7 +32,13 @@ export default function App(){
   return (
     <div className="app">
       <header>
-        <h1>Multilang Wordle</h1>
+        <h1>Multilang Wordle - Currently unfunded so give it a minute to load</h1>
+<a href="https://cash.app/$YourCashTag" target="_blank" rel="noopener noreferrer">
+  <button class="donate-btn">
+    Donate to support this project 🙏🙏
+  </button>
+</a>
+
         <div className="header-controls">
           <button className="small" onClick={()=>setTheme(t=>{ const next = t==='light'?'dark':'light'; localStorage.setItem('theme', next); document.documentElement.setAttribute('data-theme', next); return next; })}>
             {theme === 'light' ? 'Dark' : 'Light'} Mode
