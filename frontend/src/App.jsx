@@ -32,8 +32,8 @@ export default function App(){
   return (
     <div className="app">
       <header>
-        <h1>Multilang Wordle - Currently unfunded so give it a minute to load</h1>
-<a href="https://cash.app/$YourCashTag" target="_blank" rel="noopener noreferrer">
+        <h1>Multilang Wordle - Currently unfunded so give it a minute to load then continue entering answers</h1>
+<a href="https://cash.app/$rollingincashh" target="_blank" rel="noopener noreferrer">
   <button class="donate-btn">
     Donate to support this project 🙏🙏
   </button>
